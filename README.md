@@ -10,7 +10,12 @@ Overview:
 
 Create a new twist on the classic game that uses both a Drone and a Sphero. Learn how to create a windows 8.1 project to talk between the Sphero and Drone. This is by no means an easy project to implement. If you are not familiar with backend networking and communication concepts as well as connecting with hardware, I suggest reading the documentation for each of the technologies first.
 
-Before you start: * Get a Sphero: http://www.gosphero.com/ * Download the Sphero SDK: https://developer.gosphero.com/ * Get a Drone: http://ardrone2.parrot.com/ * Download the AR Drone SDK: https://projects.ardrone.org/ and https://github.com/ARDrone2Windows * Get Visual Studio: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+Before you start: 
+* Get a Sphero: http://www.gosphero.com/ 
+* Download the Sphero SDK: https://developer.gosphero.com/ 
+* Get a Drone: http://ardrone2.parrot.com/ 
+* Download the AR Drone SDK: https://projects.ardrone.org/ and https://github.com/ARDrone2Windows 
+* Get Visual Studio: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
 
 Signal R – Backend
 
@@ -101,7 +106,7 @@ The SignalRMessagingHub is where the connection is created between the server hu
 
 Now to connect with the Server Hub we need the following code:
 
-#region "Implementation"
+//#region "Implementation"
 
 public async virtual void UserLogin(User tabletChatClient)
 
@@ -139,17 +144,17 @@ I put mine inside of the first User interaction with the server, so in this case
 
 For the Phone application if using the emulator you will need to use long polling since the phone emulator uses the PC’s identification number and a lot more work has to go into formatting your computer to run it.
 
-This is the code you will need
+This is the code you will need: The // are just in there for the wiki take them out in the acutal code
 
-#if WINDOWS_PHONE_APP
+//#if WINDOWS_PHONE_APP
 
 connection.Start(new LongPollingTransport());
 
-#else
+//#else
 
 connection.Start();
 
-#endif
+//#endif
 
 Now we need to write code that will listen to events on the SignalR Server and wire them up appropriately
 Calling the .On method is how our proxy hub listens to any messages the server passes to the clients.
@@ -180,7 +185,7 @@ The (g, sm) are the parameters that we defined earlier <x,y> in this case <Game,
 
 We now need to write the method for the SignalRServerNotification(this, gArgs)
 
-#region "Methods"
+//#region "Methods"
 
 public virtual void OnSignalRServerNotificationReceived(SignalREventArgs e)
 
@@ -196,7 +201,7 @@ SignalRServerNotification(this, e);
 
 }
 
-#endregion
+//#endregion
 
 Cool now on to defining calls made by the client that will be sent to the Server.
 Make sure to define all the methods that will be sending information to the server. These async virtual methods will be called by the ISignalRHub. The quoted part “UpdateUser”, “CreateGame” and “JoinGame” refer to the methods on the server side GameHub, if the names are not exactly correct the server methods won’t invoke.
