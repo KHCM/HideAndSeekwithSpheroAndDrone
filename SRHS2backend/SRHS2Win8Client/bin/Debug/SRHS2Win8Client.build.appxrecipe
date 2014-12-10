@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MININT-5S9TPPS</Machine>
+    <WindowsUser>kaharri</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2cffaba4-682f-42ad-bcaa-88c1b9e1ce70</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\SRHS2Win8Client.exe">
+      <PackagePath>SRHS2Win8Client.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\packages\Microsoft.AspNet.SignalR.Client.2.0.3\lib\portable-net45+sl5+netcore45+wp8\Microsoft.AspNet.SignalR.Client.dll">
+      <PackagePath>Microsoft.AspNet.SignalR.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\packages\Newtonsoft.Json.5.0.1\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\packages\Microsoft.Net.Http.2.1.10\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\packages\Microsoft.Net.Http.2.1.10\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\GamePlayPage.xbf">
+      <PackagePath>GamePlayPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\GameSettingsPage.xbf">
+      <PackagePath>GameSettingsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\LobbyPage.xbf">
+      <PackagePath>LobbyPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\LoginPage.xbf">
+      <PackagePath>LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\SRHS2Win8Client.xr.xml">
+      <PackagePath>SRHS2Win8Client.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\SRHS2Win8Client\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\kaharri\documents\visual studio 2013\projects\srhs2backend\srhs2win8client\obj\debug\intermediatexaml\srhs2win8client.exe" HashGuid="0e5b49c2-a4fc-6253-480e-5615b09bcbc8" />
+    <ReferenceAssembly PathName="c:\users\kaharri\documents\visual studio 2013\projects\srhs2backend\packages\microsoft.aspnet.signalr.client.2.0.3\lib\portable-net45+sl5+netcore45+wp8\microsoft.aspnet.signalr.client.dll" HashGuid="bfdc65a5-7a80-bf09-056a-00411451337a" />
+    <ReferenceAssembly PathName="c:\users\kaharri\documents\visual studio 2013\projects\srhs2backend\packages\newtonsoft.json.5.0.1\lib\netcore45\newtonsoft.json.dll" HashGuid="1c57148c-6f74-28cf-f39b-c2a3743f7965" />
+    <ReferenceAssembly PathName="c:\users\kaharri\documents\visual studio 2013\projects\srhs2backend\packages\microsoft.net.http.2.1.10\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\kaharri\documents\visual studio 2013\projects\srhs2backend\packages\microsoft.net.http.2.1.10\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

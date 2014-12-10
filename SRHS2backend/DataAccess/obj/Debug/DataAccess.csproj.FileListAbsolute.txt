@@ -1,0 +1,7 @@
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\kaharri\Documents\Visual Studio 2013\Projects\SRHS2backend\DataAccess\obj\Debug\DataAccess.pdb
